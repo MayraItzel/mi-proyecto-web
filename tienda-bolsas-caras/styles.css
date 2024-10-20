@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8F0E3; /* Color de fondo hueso */
+    color: #6E4F3A; /* Café más suave */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #A67544; /* Café más suave */
+    padding: 20px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #A67544; /* Café más suave */
+    color: #FFF;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos del hero */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #F8F0E3; /* Color de fondo hueso */
+    color: #6E4F3A;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    color: #A67544; /* Café más suave */
+}
+
+.hero-text .btn {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #FFF;
+    background-color: #A67544; /* Café más suave */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-text .btn:hover {
+    background-color: #8C5C3E; /* Un café un poco más oscuro para el hover */
+    transform: translateY(-2px);
+}
+
+/* Estilos del modal */
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #FFF; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* Para posicionar la "X" correctamente */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5em;
+    color: #6E4F3A;
+    cursor: pointer;
+}
+
+/* Estilos del formulario */
+.modal label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.modal input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+}
+
+/* Estilo de botones */
+.modal button {
+    width: 100%;
+    padding: 10px;
+    background-color: #A67544; /* Café más suave */
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.modal button:hover {
+    background-color: #8C5C3E; /* Un café más oscuro */
+    transform: translateY(-2px);
+}
+
+/* Enlaces en el modal */
+.registration-options p {
+    margin-top: 10px;
+}
+
+.registration-options a {
+    color: #A67544; /* Café suave para enlaces */
+    text-decoration: none;
+}
+
+.registration-options a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #A67544; /* Fondo café suave */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #FFF;
+    border-top: 1px solid #DDD;
+}
